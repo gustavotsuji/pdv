@@ -50,16 +50,16 @@ When the pdv collection is created, execute these commands to create indexes
 
 Retrieve the project
 
-    git clone
+    git clone https://github.com/gustavotsuji/pdv.git
 
 Then build with maven
 
-    mvn package
+    mvn clean install
 
 ### Tests
 Just execute
 
-    mvn tests
+    mvn test
 
 ### Deploy
 
